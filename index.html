@@ -10,12 +10,16 @@
     <meta name="author" content="Ashwin Kumar" />
     <title>MAGMA X FF</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <header>
       <div class="container">
         <div id="branding">
-          <h1><span class="highlight">MAGMA</span> X FF </h1>
+          <h1 class="flex ">
+            <img src="/img/flame.png" alt="flame" class="w-8 h-8 z-0 ">
+            <span class="highlight text-3xl font-bold pl-2">MAGMA</span><span class="text-xl font-bold -pl-8"> X FF </span>
+          </h1>
         </div>
         <nav>
           <ul>
@@ -28,7 +32,7 @@
     </header>
 
     <section id="showcase">
-      <div class="container">
+      <div class="container font-black text-black ">
         <h1>Welcome To The Channel</h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
@@ -40,33 +44,34 @@
       </div>
     </section>
 
-    <section id="newsletter">
+    <section id="newsletter" class="bg-black ">
       <div class="container">
-        <h1>Subscribe To Our Gaming Channel</h1>
+        <h1 class="text-xl">Subscribe To Our Gaming Channel</h1>
+        
         <form>
-          <input type="email" placeholder="Your email address..." />
-          <button type="submit" class="button_1">Subscribe</button>
+          <input type="email" class="pl-4 py-2 rounded-full" placeholder="Your email address..." />
+          <button type="submit" class="button_1 bg-red-600 rounded-full mt-2 ">Subscribe</button>
         </form>
       </div>
     </section>
 
     <section id="boxes" >
-      <div class="container">
-        <div class="box">
-          <img src="" alt="gun ">
-          <h3> Weapons </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi pariatur accusantium quod dicta hic iusto? Soluta esse natus error.</p>
+      <div class="container flex gap-4 w-[100%] px-auto mx-auto">
+        <div class="box gap-2 flex-col flex justify-center items-center border border-black rounded-xl w-[30%] h-76">
+          <img src="https://cdn-icons-png.flaticon.com/512/1/1233.png" class="w-20 h-20" alt="gun ">
+          <h3 class="text-3xl font-bold bg-orange-600 rounded-full w-44 h-12 flex items-center justify-center mt-2 mb-2"> Weapons </h3>
+          <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi pariatur accusantium quod dicta hic iusto? Soluta esse natus error.</p>
 
         </div>
-        <div class="box">
-          <img src="" alt=" kelly">
-          <h3>Characters</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus quibusdam pariatur labore consequuntur repellat mollitia aspernatur saepe, assumenda eos ducimus, rem iure odio nobis suscipit!</p>
+        <div class="box gap-2 flex-col flex justify-center items-center border border-black rounded-xl">
+          <img src="https://cdn-icons-png.flaticon.com/512/1/1233.png" class="w-20 h-20" alt=" kelly">
+          <h3 class="text-3xl font-bold bg-orange-600 rounded-full w-44 h-12 flex items-center justify-center mt-2 mb-2">Characters</h3>
+          <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus quibusdam pariatur labore consequuntur repellat mollitia aspernatur saepe, assumenda eos ducimus, rem iure odio nobis suscipit!</p>
         </div>
-        <div class="box">
-          <img src="" alt="grandmaster">
-          <h3>Rank</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum rerum illo ducimus provident explicabo ut, corrupti doloribus quibusdam qui similique, saepe, architecto asperiores excepturi cum deleniti fuga possimus esse at.</p>
+        <div class="box gap-2 flex-col flex justify-center items-center border border-black rounded-xl">
+          <img src="https://cdn-icons-png.flaticon.com/512/1/1233.png" alt="grandmaster">
+          <h3 class="text-3xl font-bold bg-orange-600 rounded-full w-44 h-12 flex items-center justify-center mt-2 mb-2">Rank</h3>
+          <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum rerum illo ducimus provident explicabo ut, corrupti doloribus quibusdam qui similique, saepe, architecto asperiores excepturi cum deleniti fuga possimus esse at.</p>
         </div>
 
       </div>
