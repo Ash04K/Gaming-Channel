@@ -9,13 +9,17 @@
     />
     <meta name="author" content="Ashwin Kumar" />
     <title>OUR SERVICES</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <div class="container">
         <div id="branding">
-          <h1><span class="highlight">MAGMA</span> X FF </h1>
+          <h1 class="flex ">
+            <img src="/img/flame.png" alt="flame" class="w-8 h-8 z-0 ">
+            <span class="highlight text-3xl font-bold pl-2">MAGMA</span><span class="text-xl font-bold -pl-8"> X FF </span>
+          </h1>
         </div>
         <nav>
           <ul>
@@ -27,12 +31,13 @@
       </div>
     </header>
 
-    <section id="newsletter">
+    <section id="newsletter" class="bg-black ">
       <div class="container">
-        <h1>Subscribe To Our Gaming Channel</h1>
+        <h1 class="text-xl">Subscribe To Our Gaming Channel</h1>
+        
         <form>
-          <input type="email" placeholder="Your email address..." />
-          <button type="submit" class="button_1">Subscribe</button>
+          <input type="email" class="pl-4 py-2 rounded-full" placeholder="Your email address..." />
+          <button type="submit" class="button_1 bg-red-600 rounded-full mt-2 ">Subscribe</button>
         </form>
       </div>
     </section>
